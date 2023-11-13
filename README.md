@@ -7,7 +7,7 @@
 Я начинающий  Backend-разработчик<img src="https://media.giphy.com/media/WUlplcMpOCEmTGBtBW/giphy.gif" width="30px">. Сейчас я изучаю фреймфорк django. Хорошо владею языком Python и знаю C++.
 
 <p align="center">
- <img width="600" src="assets/github-snake.svg" alt="snake"/>
+ <img width="600" src="github-snake.svg" alt="snake"/>
 </p>
 
 - :telescope: Участвовал в бассейне Школы 21 от Сбера.
