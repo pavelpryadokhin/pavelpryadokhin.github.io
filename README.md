@@ -4,19 +4,14 @@
 -------------------
 ### :man_technologist: Обо мне:
 
-Я начинающий  Backend-разработчик<img src="https://media.giphy.com/media/WUlplcMpOCEmTGBtBW/giphy.gif" width="30px">. Сейчас я изучаю фреймфорк django. Хорошо владею языком Python и знаю C++.
+Я начинающий  Backend-разработчик<img src="https://media.giphy.com/media/WUlplcMpOCEmTGBtBW/giphy.gif" width="30px">. Сейчас я изучаю фреймворк django. Хорошо владею языком Python и знаю C++.
 
 <p align="center">
  <img width="600" src="github-snake.svg" alt="snake"/>
 </p>
 
-- :telescope: Участвовал в бассейне Школы 21 от Сбера.
 
-- :seedling: Завершил курсы по веб-разработке Яндекс Практикум!
-
-- :zap: Являюсь старшим студентом на курсе Веб-разработки Яндекс Практикум.
-
-- :mailbox: Как связаться со мной: [![Telegram Badge](https://img.shields.io/badge/-filimonovalexey-blue?style=flat&logo=Telegram&logoColor=white)](https://t.me/f1llzzz) [![Gmail Badge](https://img.shields.io/badge/-Gmail-red?style=flat&logo=Gmail&logoColor=white)](mailto:alexeyf08@gmail.com)
+- :mailbox: Как связаться со мной: [![Telegram Badge](https://img.shields.io/badge/-pavel_pryadokhin-blue?style=flat&logo=Telegram&logoColor=white)](https://t.me/pavel_pryadokhin)
 
 ---
 
