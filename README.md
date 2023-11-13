@@ -1,11 +1,10 @@
 <a href="https://github.com/pavelpryadokhin/"><img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=500&size=26&pause=1000&color=FFFFFF&random=false&width=435&lines=%D0%9F%D1%80%D0%B8%D0%B2%D0%B5%D1%82%2C+%D0%BC%D0%B5%D0%BD%D1%8F+%D0%B7%D0%BE%D0%B2%D1%83%D1%82+%D0%9F%D0%B0%D0%B2%D0%B5%D0%BB!" alt="Typing SVG" /></a>
 =============================================================================================================================
-<span style="color:white">some *This is Blue italic.* text</span>
+### Backend-разработчик 
 -------------------
-
 ### :man_technologist: Обо мне:
 
-Я начинающий веб разработчик<img src="https://media.giphy.com/media/WUlplcMpOCEmTGBtBW/giphy.gif" width="30px">. Мой путь в it начался со Школы 21 от Сбера, где я прошел интенсив. После интенсива был промежуток в пару месяцев, где я пробовал себя во многих направлениях, пробовал изучать язык Си, Python, попробовал свои силы в data science, но больше всего меня зацепила веб разработка! С мая 2022 года по апрель 2023 я изучал веб разработку на курсах Яндекс Практикум. В настоящий момент мое обучение на курсе завершено и я нашел свою первую работу!
+Я начинающий  Backend-разработчик<img src="https://media.giphy.com/media/WUlplcMpOCEmTGBtBW/giphy.gif" width="30px">. Сейчас я изучаю фреймфорк django. Хорошо владею языком Python и знаю C++.
 
 <p align="center">
  <img width="600" src="assets/github-snake.svg" alt="snake"/>
