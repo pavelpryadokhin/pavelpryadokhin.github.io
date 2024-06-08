@@ -4,7 +4,7 @@
 -------------------
 ### :man_technologist: Обо мне:
 
-Я начинающий  Backend-разработчик<img src="https://media.giphy.com/media/WUlplcMpOCEmTGBtBW/giphy.gif" width="30px">. Сейчас я изучаю фреймворк django. Хорошо владею языком Python и знаю C++.
+Я начинающий ML-разработчик<img src="https://media.giphy.com/media/WUlplcMpOCEmTGBtBW/giphy.gif" width="30px">. Сейчас я изучаю нейронные сети. Хорошо владею языком Python и знаю C++.
 
 <p align="center">
  <img width="600" src="github-snake.svg" alt="snake"/>
