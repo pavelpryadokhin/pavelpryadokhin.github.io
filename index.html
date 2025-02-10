@@ -1,0 +1,429 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title></title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+
+  <!-- HOSTED -->
+  <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,600,700,600italic,300italic,400italic,300,700italic,800italic,800' rel='stylesheet' type='text/css'>
+  <link href="fonts/mdi/css/materialdesignicons.min.css" media="all" rel="stylesheet" />
+
+  <!-- LOCAL -->
+  <link rel="stylesheet" href="style/style.css">
+  <link rel='shortcut icon' href='favicon.ico' type='image/x-icon'/ >
+
+  <!-- HOSTED -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/prefixfree/1.0.7/prefixfree.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/mixitup/2.1.11/jquery.mixitup.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.0/jquery.waypoints.min.js"></script>
+
+  <!-- LOCAL -->
+  <script src="scripts/pt.min.js"></script>
+  <script src="scripts/index.js"></script>
+  <script src="scripts/modal.js"></script>
+
+</head>
+<body>
+<div class="overflow-wrap">
+
+<!-- HOME -->
+  <div class="modal-wrap flex">
+    <div class="mask"></div>
+    <div class="modal" id="modal">
+      <div class="carousel-wrap">
+        <div class="window">
+          <div id="carousel">
+          <div class="slide"></div>
+          <div class="slide"></div>
+          <div class="slide"></div>
+          </div>
+          <i class="mdi mdi-chevron-left" id="prev"></i>
+          <i class="mdi mdi-chevron-right" id="next"></i>
+        </div>
+        
+      </div>
+      <div class="info-box">
+        <div class="title"></div>
+        <div class="tag"></div>
+        <div class="detail"></div>
+        <a href="#" target="_blank"><div class="button"><i class="mdi mdi-open-in-new"></i>VIEW SITE</div></a>
+      </div>
+      <i class="close mdi mdi-close"></i>
+    </div>
+  </div>
+
+  <section id="home" class="flex">
+    <div id="pt" class="canvas"></div>
+    <div class="flex">
+
+      <div class="text">
+        Привет! Я <span class="highlight">Павел Прядохин</span>.
+        <br>
+        ML-разработчик и Data Scientist.
+      </div>
+
+      <div class="button page-link" dest="about">Мои проекты  <i class="mdi mdi-arrow-right"></i></div>
+             <a href="https://drive.google.com/file/d/17KePKB9BCLY568XolZf5dMPoGqqFR81q/view?usp=drive_link" class="button page-link" target="_blank" rel="noopener noreferrer">Посмотреть резюме</a>
+
+      <nav class="flex">
+        <div class="link-wrap">
+          <div class="active page-link" dest="home">home</div>
+          <div class="page-link" dest="about">обо мне</div>
+          <div class="page-link" dest="portfolio">портфолио</div>
+          <div class="page-link" dest="contact">контакты</div>
+        </div>
+        <i class="mdi mdi-menu"></i>
+      </nav>
+    </div>
+
+  </section>
+
+<!-- ABOUT -->
+  <section id="about">
+    <div class="container flex">
+
+      <div class="header waypoint" data-animation="slide-in-left">ОБО МНЕ</div>
+      <div class="header-bar waypoint" data-animation="slide-in-left" data-delay=".5s"></div>
+
+      <div class="flex row label-wrap">
+        <div class="flex row-gt-sm">
+        <div class="flex bullet-wrap ">
+          <div class="hex-wrap waypoint" data-animation="flip-in-x">
+            <div class="hexagon">
+              <i class="mdi  mdi-code-braces"></i>
+            </div>
+          </div>
+          <div class="waypoint" data-animation="fade-in">
+            <div class="label bold">Алгоритмы и структуры данных</div>
+            <div>У меня сильная база знаний в области программирования и алгоритмов.</div>
+          </div>
+        </div>
+
+        <div class="flex bullet-wrap " >
+          <div class="hex-wrap waypoint" data-animation="flip-in-x" data-delay=".2s">
+            <div class="hexagon">
+              <i class="mdi mdi-database"></i>
+            </div>
+          </div>
+          <div class="waypoint" data-animation="fade-in" data-delay=".2s">
+            <div class="label bold">Анализ данных и предобработка</div>
+            <div>Умею собирать, чистить и обрабатывать данные, а также их визуализировать.</div>
+          </div>
+        </div>
+        </div>
+        <div class="flex row-gt-sm">
+          <div class="flex bullet-wrap " >
+            <div class="hex-wrap waypoint" data-animation="flip-in-x" data-delay=".4s">
+              <div class="hexagon">
+                <i class="mdi mdi-chart-line"></i>
+              </div>
+            </div>
+            <div class="waypoint" data-animation="fade-in" data-delay=".4s">
+              <div class="label bold">Аналитическое мышление</div>
+              <div>Работая с нейронными сетями, я всегда анализирую результаты, чтобы оптимизировать модель в будущем.</div>
+            </div>
+          </div>
+
+          <div class="flex bullet-wrap " >
+            <div class="hex-wrap waypoint" data-animation="flip-in-x" data-delay=".6s">
+              <div class="hexagon">
+                <i class="mdi mdi-layers"></i>
+              </div>
+            </div>
+            <div class="waypoint" data-animation="fade-in" data-delay=".6s">
+              <div class="label bold">Знание архитектур нейронных сетей</div>
+              <div>Не только умею работать с различными архитектурами нейронных сетей, но и глубоко понимаю их внутреннее устройство и принципы работы.</div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="skills-wrapper flex row-gt-sm">
+        <div class="flex flex-50-gt-sm waypoint" data-animation="slide-in-left">
+          <img src="img/me.jpg" class="me">
+          <!-- <div><img class="up-arrow" src="img/up-arrow.png"></div> -->
+ <div class="label bold">Кто этот парень?</div>
+          <div> 
+            Я ML-разработчик, живу в Санкт-Петербурге.
+            <br>
+            Меня мотивирует возможность работать над интересными проектами,
+постоянно учиться и развиваться.
+
+          </div>
+        </div>
+
+        <div class="flex flex-50-gt-sm waypoint bars-wrap" data-animation="slide-in-right">
+    <div class="tag bold flex label">Навыки</div>
+
+    <div class="skills-container">
+        <div class="skill-box">Python</div>
+        <div class="skill-box">Matplotlib</div>
+        <div class="skill-box">Numpy</div>
+        <div class="skill-box">SciPy</div>
+        <div class="skill-box">pandas</div>
+        <div class="skill-box">SkLearn</div>
+        <div class="skill-box">TensorFlow</div>
+        <div class="skill-box">PyTorch</div>
+        <div class="skill-box">AutoML</div>
+        <div class="skill-box">OpenCV</div>
+        <div class="skill-box">Keras</div>
+        <div class="skill-box">LlamaIndex</div>
+        <div class="skill-box">LangChain</div>
+        <div class="skill-box">Hugging Face</div>
+        <div class="skill-box">Transformers</div>
+        <div class="skill-box">BERT</div>
+        <div class="skill-box">GPT</div>
+        <div class="skill-box">NLP</div>
+        <div class="skill-box">ML/DL</div>
+        <div class="skill-box">REST API</div>
+        <div class="skill-box">FastAPI</div>
+        <div class="skill-box">Linux</div>
+    </div>
+</div>
+    </div>
+  </section>
+
+<!-- PORTFOLIO -->
+  <section class="flex" id="portfolio">
+
+    <div class="header waypoint" data-animation="slide-in-right">ПОРТФОЛИО</div>
+    <div class="header-bar waypoint" data-animation="slide-in-right" data-delay=".3s"></div>
+
+    <div class="filter-wrap waypoint" data-animation="fade-in">
+      <div class="flex row">
+        <div class="filter" data-filter="all">ALL</div>
+        <div class="filter" data-filter=".nlp">NLP</div>
+        <div class="filter" data-filter=".ds">DATA-SCIENTIST</div>
+        <div class="filter" data-filter=".bot">TELEGRAM BOT</div>
+        <div class="filter" data-filter=".rag">RAG</div>
+        <div class="filter" data-filter=".fast">FASTAPI</div>
+        <div class="filter" data-filter=".cls">CLASSIFICATION</div>
+        <div class="filter" data-filter=".reg">REGRESSION</div>
+      </div>
+      <div class="float-bar">
+        <div class="flex row">
+        <div class="filter" data-filter="all">ALL</div>
+        <div class="filter" data-filter=".nlp">NLP</div>
+        <div class="filter" data-filter=".ds">DATA-SCIENTIST</div>
+        <div class="filter" data-filter=".bot">TELEGRAM BOT</div>
+        <div class="filter" data-filter=".rag">RAG</div>
+        <div class="filter" data-filter=".fast">FASTAPI</div>
+        <div class="filter" data-filter=".cls">CLASSIFICATION</div>
+        <div class="filter" data-filter=".reg">REGRESSION</div>
+        </div>
+      </div>
+    </div>
+
+    <div id="gallery" class="container flex row wrap waypoint">
+      <div class="mix nlp" data-my-order="1">
+        <div>
+          <div class="card"></div>
+          <div class="text">
+            <div class="bold">Transformer|BERT|GPT</div>
+            <div class="highlight">
+Работа с моделями NLP
+    <ul style="list-style-type: none; padding: 0;">
+    <li><strong>Transformer</strong>: обучен для задачи question answering.</li>
+    <li><strong>BERT</strong>: дообучен отвечать на вопросы, основанные на контексте.</li>
+    <li><strong>GPT-2</strong>: дообучен писать заголовки к русскоязычным новостям.</li>
+</ul>
+</div>
+          </div>
+          
+          <a href="https://github.com/pavelpryadokhin/Transformer-BERT-GPT" class="button">Подробнее</a>
+        </div>
+      </div>
+
+
+
+      <div class="mix rag" data-my-order="1">
+        <div>
+          <div class="card"></div>
+          <div class="text">
+            <div class="bold">Подбор рецептов</div>
+            <div class="highlight">
+            Система RAG с контурной русскоязычной LLM (saiga_mistral_7b) 
+    <ul style="list-style-type: none; padding: 0;">
+    <li><strong>Llama Guard</strong>: используется для фильтрации результатов.</li>
+    <li><strong>Chromadb</strong>: используется в качестве векторной БД.</li>
+    <li><strong>LlamaIndex</strong>: выбран для реализации проекта.</li>
+</ul>
+</div>
+          </div>
+                              <a href="https://github.com/pavelpryadokhin/RAG-system" class="button">Подробнее</a>
+        </div> 
+      </div>
+      
+      <div class="mix rag" data-my-order="1">
+        <div>
+          <div class="card"></div>
+          <div class="text">
+            <div class="bold">Assistant GPT</div>
+            <div class="highlight">
+            Различные нейропомощники
+    <ul style="list-style-type: none; padding: 0;">
+    <li><strong>ChatGPT</strong>: используется в качестве основной модели.</li>
+    <li><strong>Chromadb</strong>: используется в качестве векторной БД.</li>
+    <li><strong>Langchain</strong>: выбран для реализации проекта.</li>
+</ul>
+</div>
+          </div>
+                              <a href="https://github.com/pavelpryadokhin/AI-Assistant" class="button">Подробнее</a>
+        </div> 
+      </div>
+
+
+ <div class="mix cls" data-my-order="1">
+        <div>
+          <div class="card"></div>
+          <div class="text">
+            <div class="bold">Классификации заголовков</div>
+             <div class="highlight">
+            Модель для определения тематики статьи
+    <ul style="list-style-type: none; padding: 0;">
+    <li><strong>kerastuner</strong>: используется для лучшего подбора параметров.</li>
+    <li><strong>82%</strong>: достигает точность распознавания тем.</li>
+</ul>
+</div>
+          </div>
+          <a href="https://github.com/pavelpryadokhin/Classification" class="button">Подробнее</a>
+        </div>
+      </div>
+      
+      <div class="mix cls" data-my-order="1">
+        <div>
+          <div class="card"></div>
+          <div class="text">
+            <div class="bold">Writer forecast</div>
+             <div class="highlight">
+    <ul style="list-style-type: none; padding: 0;">
+    Этот проект предлагает вам узнать, с каким русским писателем вы ближе всего по стилю письма.
+</ul>
+</div>
+          </div>
+          <a href="https://github.com/pavelpryadokhin/Classification" class="button">Подробнее</a>
+        </div>
+      </div>     
+      
+
+
+
+	<div class="mix bot" data-my-order="1">
+        <div>
+          <div class="card"></div>
+          <div class="text">
+            <div class="bold">Telegram-BOT+ChatGPT</div>
+            <span class="highlight">
+             <ul style="list-style-type: none; padding: 0;">Бот представляет собой собой AI-путеводитель по Санкт-Петербургу. Использована aiogram для связи с Telegram API и модель ChatGPT, чтобы предоставлять точные и исчерпывающие ответы.</ul></span>
+          </div>
+                    <a href="https://github.com/pavelpryadokhin/Telegram-BOT-ChatGPT" class="button">Подробнее</a>
+        </div>
+      </div>
+
+
+      
+
+      
+      <div class="mix fast" data-my-order="1">
+        <div>
+          <div class="card"></div>
+          <div class="text">
+            <div class="bold">Прогноз акций</div>
+            <div class="highlight">
+            Сервис анализирует и делает прогноз на следующий день
+    <ul style="list-style-type: none; padding: 0;">
+    <li><strong>FastAPI</strong>: используется в качестве backend.</li>
+    <li><strong>streamlit</strong>: выбран для инференса.</li>
+</ul>
+</div>
+          </div>
+          <a href="https://github.com/pavelpryadokhin/Stock-forecast" class="button">Подробнее</a>
+        </div>
+      </div>
+
+     
+           <div class="mix bot" data-my-order="1">
+        <div>
+          <div class="card"></div>
+          <div class="text">
+            <div class="bold">Квиз-бот</div>
+            <span class="highlight">
+             <ul style="list-style-type: none; padding: 0;">Бот представляет собой квиз, где пользователи отвечают на вопросы и получают результаты. Использована aiogram</ul></span>
+          </div>
+                    <a href="https://github.com/pavelpryadokhin/Botask" class="button">Подробнее</a>
+        </div>
+      </div>s
+     
+    <div class="mix reg" data-my-order="1">
+        <div>
+          <div class="card"></div>
+          <div class="text">
+            <div class="bold">Regression</div>
+                       <div class="highlight">
+            Модели для прогнозирования цен и других показателей
+    <ul style="list-style-type: none; padding: 0;">
+    <li><strong>Car Price</strong>: прогнозирует цены на японские машины</li>
+    <li><strong>NBA statistics</strong>: прогнозирует количество забитых мячей в матче</li>
+</ul>
+</div>
+          </div>
+          <a href="https://github.com/pavelpryadokhin/Regression" class="button">Подробнее</a>
+        </div>
+      </div>
+      
+      
+      <div class="mix ds" data-my-order="1">
+        <div>
+          <div class="card"></div>
+          <div class="text">
+            <div class="bold">Hotel Predict</div>
+            <span class="highlight">
+            <ul style="list-style-type: none; padding: 0;">Проведен глубокий анализ данных о бронированиях и разработан метод прогнозирования отмены брони с использованием ML.</ul></span>
+          </div>
+          <a href="https://github.com/pavelpryadokhin/Data-Scientist" class="button">Подробнее</a>
+        </div>
+      </div>
+
+<div class="mix ds" data-my-order="1">
+        <div>
+          <div class="card"></div>
+          <div class="text">
+            <div class="bold">Анализ акций</div>
+            <span class="highlight">
+            <ul style="list-style-type: none; padding: 0;">Проведен анализ акций Сбербанка, в рамках которого рассмотрены различные индикаторы для наглядного представления данных.</ul></span>
+          </div>
+          <a href="https://github.com/pavelpryadokhin/Data-Scientist" class="button">Подробнее</a>
+        </div>
+      </div>
+      
+    </div>
+  </section>
+
+
+  <footer>
+  <div class="label bold">Контакты</div>
+  <div style="height: 20px;"></div> 
+    <i class="mdi mdi-chevron-double-up page-link" dest="home" id="contact"></i>
+
+  
+    <div class="icon-wrap flex row">
+      <a href="https://t.me/pavel_pryadokhin">
+        <div class="flex icon" id="icon-2"> 
+          <i class="mdi mdi-telegram"></i>
+        </div>
+      </a>
+      <a href="mailto:pavel.pryadokhin@mail.ru">
+        <div class="flex icon" id="icon-3"> 
+          <i class="mdi mdi-email"></i>
+        </div>
+      </a>
+    </div>
+    </div>
+  </footer>
+
+</div>
+</body>
+</html>
+
+<script src="scripts/canvas.js"></script>
